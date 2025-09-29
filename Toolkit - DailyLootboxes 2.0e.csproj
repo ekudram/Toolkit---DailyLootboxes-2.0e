@@ -97,5 +97,13 @@
     <Compile Include="Lootbox_Settings.cs" />
     <Compile Include="ToolkitLootboxes.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="1.6\Assemblies\ToolkitDailyLootboxes2.dll" />
+    <Content Include="1.6\Assemblies\ToolkitDailyLootboxes2.pdb" />
+    <Content Include="About\About.xml" />
+    <Content Include="About\ModIcon.ico" />
+    <Content Include="About\Preview.png" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

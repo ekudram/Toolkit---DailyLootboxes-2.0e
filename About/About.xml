@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+  <name>TwitchToolkit - Lootboxes for 2.0e</name>
+  <author>Captolamia</author>
+  <url>https://github.com/ekudram/Toolkit---DailyLootboxes</url>
+  <supportedVersions>
+	<li>1.6</li>
+  </supportedVersions>
+  <packageId>toolkit.lootboxes</packageId>
+  <description>🎁 Daily Mystery Boxes for Twitch Viewers - Add exciting daily lootboxes to your RimWorld streams! Viewers receive a random lootbox each day containing anywhere from 1 to 10,000 coins. Streamers can customize the coin range to fit their economy. Perfect for rewarding loyal viewers and adding daily anticipation to your channel.</description>
+  <modDependencies>
+    <li>
+      <packageId>captolamia.twitchtoolkit</packageId>
+      <displayName>TwitchToolkit</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3013874066</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+	<li>captolamia.twitchtoolkit</li>
+	<li>sirrandoo.captolamia.tku</li>
+  </loadAfter>
+  <incompatibleWith>
+    <li>sirrandoo.tku</li>
+    <li>hodlhodl.twitchtoolkit</li>
+    <li>hodlhodl.toolkitcore</li>
+    <li>nry.twitchtoolkit</li>
+    <li>nry.toolkitcore</li>
+    <li>sirrandoo.twitchtoolkit</li>
+  </incompatibleWith>
+</ModMetaData>
